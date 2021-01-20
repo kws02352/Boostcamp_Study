@@ -7,12 +7,12 @@
 
 ### **변수의 개요**
 - 가장 기초적인 프로그래밍 문법 개념 <br>
-- 데이터(값)을 저장하기 위한 메모리 공간의 프로그래밍상 이름.
-+ 데이터를 변수에 선언 했을 때의 의미<br> ex) camper = “sanghyun”의 의미는? camper에 “sanghyun”을 넣어라.
+- 데이터(값)을 저장하기 위한 메모리 공간의 프로그래밍상 이름.<br>
+- 데이터를 변수에 선언 했을 때의 의미<br> ex) camper = “sanghyun”의 의미는? camper에 “sanghyun”을 넣어라.
 
 
 
-### **변수(Variable)**란?
+### **변수(Variable)** 란?
 - 프로그래밍에서 변수는 값을 저장하는 장소.
 - 변수는 **메모리 주소**를 가지고 있고, 변수에 들어가는 값은 메모리 주소에 할당됨.
 
@@ -125,7 +125,7 @@ print(is_even)
 - 반복문 역시 반복 구문은 들여쓰기와 block으로 구분됨
 - 파이썬은 반복문으로 for, while 등의 명령 키워드를 사용
 
-### #반복의 제어 - break, continue
+#### 반복의 제어 - break, continue
 - break: 특정 조건에서 반복 종료
 - continue: 특정 조건에서 남은 반복 명령 skip
 
@@ -184,7 +184,7 @@ print(is_even)
 - 데이터(값)을 저장하기 위한 메모리 공간의 프로그래밍상 이름.
 + 데이터를 변수에 선언 했을 때의 의미<br> ex) camper = “sanghyun”의 의미는? camper에 “sanghyun”을 넣어라.
 
-### **변수(Variable)**란?
+### **변수(Variable)** 란?
 - 프로그래밍에서 변수는 값을 저장하는 장소.
 - 변수는 **메모리 주소**를 가지고 있고, 변수에 들어가는 값은 메모리 주소에 할당됨.
 
@@ -207,7 +207,7 @@ print(is_even)
 - 문자형(string)
 - 논리/불린 자료형(boolean)
 
-## #Dynamic Typing
+### Dynamic Typing
 코드 실행시점에 데이터의 Type을 결정하는 방법
 
 ### 연산자(Operator)와 피연산자(Operand)
