@@ -1,2 +1,2 @@
-# Stury hard
+# Stuy hard
 Just Do It
