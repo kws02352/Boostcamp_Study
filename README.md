@@ -1,2 +1,2 @@
-# Boostcamp_AI_Tech_sh
+# Stury hard
 Just Do It
