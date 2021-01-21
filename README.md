@@ -1,2 +1,2 @@
-# Stuy hard
+# Study hard
 Just Do It
