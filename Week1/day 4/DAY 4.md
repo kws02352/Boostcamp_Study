@@ -59,6 +59,54 @@ class SoccerPlayer(object):
 > SoccerPlayer: class명<br>
 > ("Jinhyun", "MF", 10): __init__ 함수 Interface, 초기값
 
+#### OOP characteristics
+> Inheritance(상속), Polymorphism(다형성), Visibility
+#### Inheritance(상속)
+- 부모 클래스로부터 속성과 Method를 물려받은 자식 클래스를 생성 하는 것.
+- `super().`: 부모 객체를 사용하는 것.
+
+#### Polymorphism(다형성)
+- 같은 이름 메소드의 내부 로직을 다르게 작성
+- Dynamic Typing 특성으로 인해 파이썬에서는 같은 부모 클래스의 상속에서 주로 발생함
+- 중요한 OOP의 개념 그러나 너무 깊이 알 필요 X
+
+#### Visibility(가시성)
+- 객체의 정보를 볼 수 있는 레벨을 조절하는 것
+- 누구나 객체 안에 모든 변수를 볼 필요가 없음
+> 1) 객체를 사용하는 사용자가 임의로 정보 수정
+> 2) 필요 없는 정보에는 접근 할 필요가 없음
+> 3) 만약 제품으로 판매한다면? 소스의 보호
+
+> [알아두면 상식] Encapsulation<br>
+> - 캡슐화 또는 정보 은닉(Information Hiding)
+> - Class를 설계할 때, 클래스 간 간섭/정보공유의 최소화
+> - 심판 클래스가 축구 선수 클래스 가족 정보를 알아야 하나?
+> - 캡슐을 던지듯, 인터페이스만 알아서 써야함.
+
+> `__items`에서 앞에 "__"는 private 변수로 선언하는 것. 즉, 타객체가 접근 못함.
+
+### decorate
+> `@property`
+- first-class objects(일급 객체) : 파이썬의 함수는 일급함수!!!
+	- 일등 함수 또는 일급 객체
+	- 변수나 데이터 구조에 할당이 가능한 객체
+	- 파라메터로 전달이 가능 + 리턴 값으로 사용
+```python
+def square(x):
+	return x * x
+f = square # 함수를 변수로 사용, 메모리 주소.
+f(5)
+```
+- Inner function
+	- 함수 내에 또 다른 함수가 존재
+```python
+def print_msg(msg):
+	def printer():
+    	print(msg)
+    printer()
+print_msg("Hello, Python")
+```
+
 
 
 
