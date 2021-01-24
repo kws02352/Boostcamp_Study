@@ -106,14 +106,46 @@ def print_msg(msg):
     printer()
 print_msg("Hello, Python")
 ```
-
-
-
-
-
-
-
-
-
-
-
+- closures: inner function을 return 값으로 반환
+```python
+def print_msg(msg):
+	def printer():
+    	print(msg)
+    return printer
+    
+another = print_msg("Hello, Python")
+another()
+```
+## Module and Project
+### 강의 소개
+- 이번 강의에서는 파이썬 프로젝트의 기본이 되는 모듈과 패키지, 그리고 프로젝트의 개념에 대해서 배웁니다.
+- 우리는 앞ㅅ ㅓ파이썬에서 제공하는 여러가지 모듈들을 사용했습니다. 이러한 모듈과 패키지를 구성하고, 실제로 다른 개발자가 만든 모듈을 사용하는 방법까지 이 챕터에서 다루게 됩니다.
+#### Module
+- 어떤 대상의 부분 혹은 조각<br>
+예) 레고 블록, 벽돌, 자동차 부품들
+- 프로그램에서는 작은 프로그램 조각들,<br> 모듈들을 모아서 하나의 큰 프로그램을 개발함
+- 프로그램을 모듈화 시키면 다른 프로그램이 사용하기 쉬움<br> 예) 카카오톡 게임을 위한 카카오톡 접속 모듈
+#### Package
+- 모듈을 모아놓은 단위, 하나의 프로그램
+### Module
+#### Module 만들기
+- 파이썬의 Module == py 파일을 의미
+- 같은 폴더에 Module에 해당하는 .py 파일과 사용하는 .py을 저장한 후
+- import 문을 사용해서 module을 호출
+> #### namespace
+> - 몸듈을 호출할 때 범위 정하는 방법
+> - 모듈 안에는 함수와 클래스 등이 존재 가능
+> - 필요한 내용만 골라서 호출 할 수 있음
+> - from과 import 키워드를 사용함
+> > Alias 설정하기- 모듈명을 변칭으로 써서 호출하기 <br>
+> > `import tensorflow as tf`<br>
+> > 모듈에서 특정 함수 또는 클래스만 호출하기<br>
+> > `from abc import a`<br>
+> > 모듈에서 모든 함수 또는 클래스를 호출하기<br>
+> > `from abc import *`
+### Package
+- 하나의 대형 프로젝트를 만드는 코드의 묶음
+- 다양한 모듈들의 합, 폴더로 연결됨
+- __init__, __main__등 키워드 파일명이 사용됨
+- 다양한 오픈 소스들이 모두 패키지로 관리됨
+> from [.현재 디렉토리 기준][..부모 디렉토리 기준] import [절대참조]
