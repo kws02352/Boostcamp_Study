@@ -22,7 +22,7 @@
 
 #### 스택 (stack) with list object
 - 리스트를 사용하여 스택 구조를 구현 가능
-- push를 메ㅔ둥(), pop을 pop()를 사용
+- push를 메둥(), pop을 pop()를 사용
 	- sorted 함수는 정렬된 list를 반환 O, list a 기본 구조 변화 X.
 	- sort 함수는 정렬된 list 반환 X, list a 기본 구조 변화 X.
 	- pop()은 반환 O, list a 기본 구조 변화 O..
