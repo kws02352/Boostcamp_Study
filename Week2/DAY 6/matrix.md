@@ -32,4 +32,4 @@ x = np.array([[1,-2,3], # x1
 - 어떤 행렬 A의 연산을 거꾸로 되돌리는 행렬을 역행렬이라 부르고 A^(-1)라 표기한다. 역행렬은 행과 열 숫자가 같고 행렬식이 0이 아닌 경우에만 계산할 수 있다.
 - 만일 역행렬을 계산할 수 없다면 유사역행렬(pseudo-inverse) 또는 무어-펜로즈(Moore-Penrose)역행렬 A^+을 이용한다.
 
-![Inverse matrix](./equation/1.jpg)
+![Inverse matrix](./equation/1.JPG)
