@@ -86,3 +86,9 @@
 - Dropout
 - Batch normalization
 	- 적용하고자 하는 layer의 statistic을 정규화하는 것.
+
+# 공부한 내용
+-  optimization에 대해서 잘 몰랐던 부분에 대해서 알 수 있었다.
+	- momentum에서는 관성을 이용한다는 부분과 adagrade에서 분모로 gradient squares를 역수로 놓은 부분은 알고있다하더라도 개념만 알았지 수식으로 보고 이해를 하는 것은 못했었는데, 알게 되었다.
+
+- regularization에서는 BN과 Label mothing을 새로 알게 되었다. Mixup과 CutMix는 새로 보는 개념이었는데, 코드 난이도에 비해 큰 효과가 있다는 것이 신기했으며, 사용해보고 싶어 코드를 참고하며 공부하였다.
