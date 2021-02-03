@@ -9,7 +9,7 @@
 
 ![convolution](./image/5.JPG)<br>
 
-- Convolution 연산의 수학적인 의미는 신호(signal)를 커널을 이용해 국소적으로 증폭 또는 감소 시켜서 정보를 추출 또는 필터링하는 것.
+- Convolution 연산의 수학적인 의미는 신호(signal)를 커널을 이용해 국소적으로 증폭 또는 감소 시켜서 정보를 추출 또는 필터링하는 것.<
 참고: http://195.134.76.37/applets/AppletConvol/Appl_Convol2.html
 
 ![convolution_equation](./image/6.JPG)<br>
