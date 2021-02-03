@@ -38,4 +38,11 @@
 - Convolution 연산은 커널이 모든 입력 데이터에 공통으로 적용되기 때문에 역전파를 계산할 때도 convolution 연산이 나오게 된다.
 
 ![Convolution_backpropagation](./image/10.JPG)<br>
-
+![Convolution_backpropagation1](./image/11.JPG)<br>
+![Convolution_backpropagation2](./image/12.JPG)<br>
+![Convolution_backpropagation3](./image/13.JPG)<br>
+![Convolution_backpropagation4](./image/14.JPG)<br>
+![Convolution_backpropagation5](./image/15.JPG)<br>
+![Convolution_backpropagation6](./image/16.JPG)<br>
+![Convolution_backpropagation7](./image/17.JPG)<br>
+![Convolution_backpropagation8](./image/18.JPG)<br>
