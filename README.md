@@ -6,3 +6,6 @@
 
 #### Week 2
 - Python mathmetics
+
+#### Week 3
+- What is Convolution??
