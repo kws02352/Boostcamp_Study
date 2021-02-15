@@ -37,13 +37,13 @@
 - Three important rules
 - Chain rule
 
-![chain](/image/1.JPG)<br>
+![chain](./image/1.JPG)<br>
 - Bayes' rule
 
-![Bayes](/image/2.JPG)<br>
+![Bayes](./image/2.JPG)<br>
 - Conditional independence
 
-![conditional](/image/3.JPG)<br>
+![conditional](./image/3.JPG)<br>
 
 #### Auto-regressive Model
 - Suppose we have 28 x 28 binary pixels.
