@@ -46,7 +46,7 @@
 	- many to many
 	- Vocabulary: [h, e, l, o]
 	- ex: h->[1, 0, 0, 0] ...
-	- ![ht](./image/6,JPG)
+	- ![ht](./image/6.JPG)
 	- h0 = [0,0,0]
 
 ### Backpropagation through time (BPTT)
