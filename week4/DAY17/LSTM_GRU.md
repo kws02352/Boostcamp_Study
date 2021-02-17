@@ -76,7 +76,11 @@
 - c_t는 기억해야 할 모든 정보를 가지고 있다고 볼 수 있다.
 - 하지만, h_t는 현재 x_t에서의 예측값에 직접적인 영향을 준다. c_t의 많은 정보에서 필요한<br> 정보만 필터링 한다고 볼 수 있다.
 
+![forget](./image/forget.JPG)
 
+![input](./image/input.JPG)
+
+![output](/image/output.JPG)
 # Gated Recurrent Unit (GRU)
 - GRU
 	- LSTM 모델을 보다 경량화해서 적은 메모리 요구량과 빠른 계산시간이 가능하도록 만든 모델이다.
