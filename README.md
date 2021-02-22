@@ -9,3 +9,9 @@
 
 #### Week 3
 - What is Convolution??
+
+#### Week 4
+- NLP
+
+#### Week 5
+- Recommand System
