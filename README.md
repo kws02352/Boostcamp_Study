@@ -15,3 +15,6 @@
 
 #### Week 5
 - Recommand System
+
+#### Week 7
+- Computer Vision
