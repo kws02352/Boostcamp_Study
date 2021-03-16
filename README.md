@@ -20,4 +20,4 @@
 - Computer Vision
 
 #### Week 8
-- 모델 
+- 모델 경량화
