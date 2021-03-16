@@ -18,3 +18,6 @@
 
 #### Week 7
 - Computer Vision
+
+#### Week 8
+- 모델 
