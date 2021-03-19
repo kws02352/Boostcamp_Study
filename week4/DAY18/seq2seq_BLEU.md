@@ -16,7 +16,7 @@
 - **Attention**을 사용한다면...
 	- 입력의 각 time step마다 h_t가 생성이 되고,
 	- decoder에서 단어를 생성할 때, 필요한 encoder에서의 h_t를 선별적으로 사용한다.
-	- ![attention](./image/2,JPG)
+	- ![attention](./image/2.JPG)
 	- attention score = decoder(h_t)와 각각의 encoder(h_[:-1])의 내적
 	- attention distribution(attention vector) = attention score의 softmax
 	- attention output(context vector) = attention vector와 각각의 h_[:-1]의 가중평균
@@ -25,7 +25,7 @@
 	    -  output layer의 입력
 		-  encoder에서 어떤 hidden state vector를 중점적으로 봐야 할지 결정, attention의 입력
 	- decoder backpropagation
-		- ![decoder_backpropagation](3.JPG)
+		- ![decoder_backpropagation](./image/3.JPG)
 	- teacher forcing
 		- 학습 때는, decoder의 입력은 groud truth.(teacher forcing)
 		- inference 때는, decoder의 입력은 이전 step에서의 output.
